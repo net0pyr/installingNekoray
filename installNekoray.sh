@@ -35,6 +35,7 @@ fi
 echo "Creating launcher script..."
 echo '''
 #!/bin/bash
+sudo /usr/bin/setcap cap_net_admin=ep /home/net0pyr/.local/share/nekoray/nekobox_core
 ~/.local/share/nekoray/launcher
 ''' > ~/.local/bin/nekoray
 
