@@ -15,3 +15,9 @@ chmod +x installNekoray.sh
 chmod +x removeNekoray.sh
 ./removeNekoray.sh
 ```
+
+## Использование
+
+```bash
+nekoray
+```
